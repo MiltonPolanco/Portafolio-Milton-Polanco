@@ -18,7 +18,7 @@ const Projects = () => {
       title: t('projects.portfolio.title'),
       description: t('projects.portfolio.description'),
       image: generateScreenshotUrl('https://portafolio-milton-polanco.netlify.app/'),
-      technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Bootstrap', 'Tailwind CSS'],
+      technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Bootstrap', 'Tailwind CSS', 'TypeScript'],
       githubUrl: 'https://github.com/MiltonPolanco/Portafolio-Milton-Polanco',
       liveUrl: 'https://portafolio-milton-polanco.netlify.app/'
     },
