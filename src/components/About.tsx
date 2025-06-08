@@ -1,4 +1,3 @@
-/* filepath: c:\Users\mdax8\OneDrive\Desktop\Web\Portafolio Milton Polanco\portfolio\src\components\About.tsx */
 import React from 'react';
 import { useTheme } from '../context/ThemeContext';
 import { useLanguage } from '../context/LanguageContext';

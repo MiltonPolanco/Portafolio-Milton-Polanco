@@ -1,9 +1,7 @@
-/* filepath: c:\Users\mdax8\OneDrive\Desktop\Web\Portafolio Milton Polanco\portfolio\src\components\Projects.tsx */
 import React from 'react';
 import { useTheme } from '../context/ThemeContext';
 import { useLanguage } from '../context/LanguageContext';
 
-// Función para generar screenshots de proyectos
 const generateScreenshotUrl = (projectUrl: string): string => {
   const encodedUrl = encodeURIComponent(projectUrl);
   return `https://api.microlink.io/?url=${encodedUrl}&screenshot=true&embed=screenshot.url`;
