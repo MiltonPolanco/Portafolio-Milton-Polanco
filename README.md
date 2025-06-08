@@ -1,54 +1,36 @@
-# React + TypeScript + Vite
+# 🌟 Portafolio Personal - Milton Polanco
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/adcf60bd-0eed-434e-a57d-06e062047691/deploy-status)](https://app.netlify.com/projects/portafolio-milton-polanco/deploys)
+[![React](https://img.shields.io/badge/React-18.x-blue.svg)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg)](https://www.typescriptlang.org/)
 
-Currently, two official plugins are available:
+Mi portafolio personal desarrollado con tecnologías web modernas, mostrando mis habilidades y proyectos como desarrollador Full Stack.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 [Ver Portafolio en Vivo](https://portafolio-milton-polanco.netlify.app/)
 
-## Expanding the ESLint configuration
+## ✨ Características Principales
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 🌍 **Multiidioma** (Español/Inglés)
+- 🌙 **Modo Oscuro/Claro**  
+- 📱 **Diseño Responsivo**
+- 📷 **Screenshots Automáticos** con Microlink API
+- 📧 **Formulario de Contacto** funcional
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🛠️ Tecnologías
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+**Frontend:** React, TypeScript, Tailwind CSS, Bootstrap  
+**APIs:** Microlink
+**Deploy:** Netlify
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📊 Proyectos Destacados
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+1. **[Sistema Tecnomedica](https://tenomedica-tm.netlify.app/)** - Next.js, MongoDB, NextAuth.js
+2. **[Asistente de Investigación IA](https://asistente-de-investigacin-digital.streamlit.app/)** - Python, Streamlit, OpenAI
+3. **[Series Tracker API](https://github.com/MiltonPolanco/Lab-6-Backend-only)** - Go, MariaDB, Docker
+
+## 📞 Contacto
+
+- 🌐 **Portfolio**: [portafolio-milton-polanco.netlify.app](https://portafolio-milton-polanco.netlify.app/)
+- 💼 **LinkedIn**: [Milton Giovanni Polanco Serrano](https://www.linkedin.com/in/milton-giovanni-polanco-serrano-737a9b266/)
+- 📧 **Email**: miltonpolanco00@gmail.com
+- 🐱 **GitHub**: [@MiltonPolanco](https://github.com/MiltonPolanco)
