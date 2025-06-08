@@ -44,7 +44,7 @@ const Projects = () => {
       image: generateScreenshotUrl('https://github.com/MiltonPolanco/Lab-6-Backend-only'),
       technologies: ['Go', 'MariaDB', 'Docker', 'REST API', 'JavaScript', 'HTML/CSS'],
       githubUrl: 'https://github.com/MiltonPolanco/Lab-6-Backend-only',
-      liveUrl: ''
+      liveUrl: 'https://github.com/MiltonPolanco/Lab-6-Backend-only'
     }
   ];
 
