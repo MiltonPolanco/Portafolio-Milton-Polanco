@@ -75,7 +75,7 @@ const About = () => {
 
             <div className="relative">
               <img 
-                src="/about-image.jpg"
+                src="/Akirapic.jpg"
                 alt={t('about.title')}
                 className="rounded-lg shadow-xl"
                 onError={(e) => {
