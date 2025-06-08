@@ -25,7 +25,7 @@ const Projects = () => {
     {
       title: t('projects.research-assistant.title'),
       description: t('projects.research-assistant.description'),
-      image: generateScreenshotUrl('https://asistente-de-investigacin-digital.streamlit.app/'),
+      image: '/asistente-streamlit.png',
       technologies: ['Python', 'Streamlit', 'OpenAI API', 'Tavily API', 'WordCloud'],
       githubUrl: 'https://github.com/MiltonPolanco/Proyecto1-IA',
       liveUrl: 'https://asistente-de-investigacin-digital.streamlit.app/'

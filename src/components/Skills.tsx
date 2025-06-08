@@ -17,7 +17,7 @@ const Skills = () => {
       ),
       skills: [
         'React', 'Next.js', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3', 
-        'Tailwind CSS'
+        'Tailwind CSS', 'Bootstrap', 'Streamlit'
       ]
     },
     {
@@ -28,7 +28,7 @@ const Skills = () => {
         </svg>
       ),
       skills: [
-        'Node.js', 'Express.js', 'Python', 'REST APIs', 'JWT', 'OAuth'
+        'Node.js', 'Express.js', 'Python', 'Go', 'REST APIs', 'JWT', 'OAuth', 'NextAuth.js'
       ]
     },
     {
@@ -39,7 +39,7 @@ const Skills = () => {
         </svg>
       ),
       skills: [
-        'PostgreSQL', 'MongoDB', 'MySQL', 'Prisma', 'Mongoose', 
+        'PostgreSQL', 'MongoDB', 'MySQL', 'MariaDB', 'Prisma', 'Mongoose', 
         'SQL', 'Supabase'
       ]
     },
@@ -55,13 +55,25 @@ const Skills = () => {
         'Git', 'GitHub', 'Docker', 'Vercel', 'Netlify', 
         'VS Code', 'Postman', 'Figma', 'Linux', 'Nginx'
       ]
+    },
+    {
+      title: t('skills.apis'),
+      icon: (
+        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.367 2.684 3 3 0 00-5.367-2.684z" />
+        </svg>
+      ),
+      skills: [
+        'OpenAI API', 'Tavily API', 'Stripe', 'WordCloud', 'REST APIs'
+      ]
     }
   ];
 
   const learningSkills = [
-    'Go', 'Rust', 'React Native',
+    'Rust', 'React Native',
     'Machine Learning', 'AI/LLMs', 'PHP', 
-    'Laravel',  'SQLite', 'Database Design', 'AWS', 'CI/CD', 'React Router'
+    'Laravel', 'SQLite', 'Database Design', 'AWS', 'CI/CD', 'React Router',
+    'GraphQL', 'Microservices'
   ];
 
   return (
