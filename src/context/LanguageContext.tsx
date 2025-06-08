@@ -65,8 +65,8 @@ const translations = {
     'projects.portfolio.description': 'Mi portafolio personal desarrollado con tecnologías web modernas, mostrando mis habilidades y proyectos como desarrollador',
     'projects.research-assistant.title': 'Asistente Digital de Investigación',
     'projects.research-assistant.description': 'Herramienta de investigación impulsada por IA que busca en la web, genera resúmenes y crea nubes de palabras usando las APIs de OpenAI y Tavily.',
-    'projects.tecnomedica.title': 'Tecnomedica System',
-    'projects.tecnomedica.description': 'Complete medical management web platform with authentication, administrative dashboard and role-based system. Features Google OAuth integration and MongoDB database',
+    'projects.tecnomedica.title': 'Sistema Tecnomedica',
+    'projects.tecnomedica.description': 'Plataforma web completa para gestión médica con autenticación, dashboard administrativo y sistema de roles. Incluye integración con Google OAuth y base de datos MongoDB',
     'projects.seriesTracker.title': 'Series Tracker API',
     'projects.seriesTracker.description': 'API RESTful desarrollada en Go para gestionar un backlog de series con operaciones CRUD completas. Incluye frontend interactivo, filtros avanzados, actualizaciones parciales (PATCH) y sistema de ranking con upvote/downvote',
     
@@ -131,12 +131,12 @@ const translations = {
     // Projects Section
     'projects.title': 'Projects',
     'projects.subtitle': 'Some of the projects I have worked on recently',
-    'projects.projects.portfolio.title': 'Personal Portfolio',
+    'projects.portfolio.title': 'Personal Portfolio',
     'projects.portfolio.description': 'My personal portfolio built with modern web technologies, showcasing my skills and projects as a developer',
     'projects.research-assistant.title': 'Digital Research Assistant',
     'projects.research-assistant.description': 'AI-powered research tool that searches the web, generates summaries, and creates word clouds from search results using OpenAI and Tavily APIs.',
-    'projects.tecnomedica.title': 'Sistema Tecnomedica',
-    'projects.tecnomedica.description': 'Plataforma web completa para gestión médica con autenticación, dashboard administrativo y sistema de roles. Incluye integración con Google OAuth y base de datos MongoDB',
+    'projects.tecnomedica.title': 'Tecnomedica System',
+    'projects.tecnomedica.description': 'Complete medical management web platform with authentication, administrative dashboard and role-based system. Features Google OAuth integration and MongoDB database',
     'projects.seriesTracker.title': 'Series Tracker API',
     'projects.seriesTracker.description': 'RESTful API built with Go for managing a series backlog with full CRUD operations. Features interactive frontend, advanced filtering, partial updates (PATCH), and ranking system with upvote/downvote functionality',
     
