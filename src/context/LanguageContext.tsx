@@ -43,7 +43,7 @@ const translations = {
     // About Section
     'about.title': 'Sobre mí',
     'about.subtitle': 'Desarrollador apasionado por crear soluciones innovadoras',
-    'about.description1': 'Soy un desarrollador Full Stack con más de 3 años de experiencia creando aplicaciones web modernas y escalables. Mi pasión es transformar ideas complejas en soluciones digitales elegantes y funcionales.',
+    'about.description1': 'Soy un desarrollador Full Stack con experiencia creando aplicaciones web modernas y escalables. Mi pasión es transformar ideas complejas en soluciones digitales elegantes y funcionales.',
     'about.description2': 'Me especializo en tecnologías como React, Node.js, y Python, siempre manteniéndome actualizado con las últimas tendencias del desarrollo web.',
     
     // Skills Section
@@ -60,12 +60,14 @@ const translations = {
     // Projects Section
     'projects.title': 'Proyectos',
     'projects.subtitle': 'Algunos de los proyectos en los que he trabajado recientemente',
-    'projects.ecommerce.title': 'Plataforma E-commerce',
-    'projects.ecommerce.description': 'Plataforma completa de comercio electrónico con React, Node.js y Stripe',
-    'projects.taskmanager.title': 'App de Gestión de Tareas',
-    'projects.taskmanager.description': 'Aplicación de gestión de tareas con funcionalidades colaborativas',
-    'projects.weather.title': 'Dashboard del Clima',
-    'projects.weather.description': 'Dashboard del clima con visualizaciones interactivas y pronósticos',
+    'projects.portfolio.title': 'Portafolio Personal',
+    'projects.portfolio.description': 'Mi portafolio personal desarrollado con tecnologías web modernas, mostrando mis habilidades y proyectos como desarrollador',
+    'projects.research-assistant.title': 'Asistente Digital de Investigación',
+    'projects.research-assistant.description': 'Herramienta de investigación impulsada por IA que busca en la web, genera resúmenes y crea nubes de palabras usando las APIs de OpenAI y Tavily.',
+    'projects.tecnomedica.title': 'Tecnomedica System',
+    'projects.tecnomedica.description': 'Complete medical management web platform with authentication, administrative dashboard and role-based system. Features Google OAuth integration and MongoDB database',
+    'projects.seriesTracker.title': 'Series Tracker API',
+    'projects.seriesTracker.description': 'API RESTful desarrollada en Go para gestionar un backlog de series con operaciones CRUD completas. Incluye frontend interactivo, filtros avanzados, actualizaciones parciales (PATCH) y sistema de ranking con upvote/downvote',
     
     // Contact Section
     'contact.title': 'Contacto',
@@ -110,7 +112,7 @@ const translations = {
     // About Section
     'about.title': 'About Me',
     'about.subtitle': 'Developer passionate about creating innovative solutions',
-    'about.description1': 'I am a Full Stack developer with over 3 years of experience creating modern and scalable web applications. My passion is transforming complex ideas into elegant and functional digital solutions.',
+    'about.description1': 'I am a Full Stack developer with experience creating modern and scalable web applications. My passion is transforming complex ideas into elegant and functional digital solutions.',
     'about.description2': 'I specialize in technologies like React, Node.js, and Python, always staying updated with the latest web development trends.',
     
     // Skills Section
@@ -127,12 +129,14 @@ const translations = {
     // Projects Section
     'projects.title': 'Projects',
     'projects.subtitle': 'Some of the projects I have worked on recently',
-    'projects.ecommerce.title': 'E-commerce Platform',
-    'projects.ecommerce.description': 'Complete e-commerce platform with React, Node.js and Stripe',
-    'projects.taskmanager.title': 'Task Management App',
-    'projects.taskmanager.description': 'Task management application with collaborative features',
-    'projects.weather.title': 'Weather Dashboard',
-    'projects.weather.description': 'Weather dashboard with interactive visualizations and forecasts',
+    'projects.projects.portfolio.title': 'Personal Portfolio',
+    'projects.portfolio.description': 'My personal portfolio built with modern web technologies, showcasing my skills and projects as a developer',
+    'projects.research-assistant.title': 'Digital Research Assistant',
+    'projects.research-assistant.description': 'AI-powered research tool that searches the web, generates summaries, and creates word clouds from search results using OpenAI and Tavily APIs.',
+    'projects.tecnomedica.title': 'Sistema Tecnomedica',
+    'projects.tecnomedica.description': 'Plataforma web completa para gestión médica con autenticación, dashboard administrativo y sistema de roles. Incluye integración con Google OAuth y base de datos MongoDB',
+    'projects.seriesTracker.title': 'Series Tracker API',
+    'projects.seriesTracker.description': 'RESTful API built with Go for managing a series backlog with full CRUD operations. Features interactive frontend, advanced filtering, partial updates (PATCH), and ranking system with upvote/downvote functionality',
     
     // Contact Section
     'contact.title': 'Contact',

@@ -13,7 +13,7 @@ const About = () => {
     'Node.js & Express',
     'Python & Django',
     'PostgreSQL & MongoDB',
-    'AWS & Docker'
+    'Docker'
   ];
 
   return (

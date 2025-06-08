@@ -9,28 +9,36 @@ const Projects = () => {
 
   const projects = [
     {
-      title: t('projects.ecommerce.title'),
-      description: t('projects.ecommerce.description'),
+      title: t('projects.portfolio.title'),
+      description: t('projects.portfolio.description'),
       image: '/project1.jpg',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      githubUrl: 'https://github.com/miltonpolanco/ecommerce',
-      liveUrl: 'https://ecommerce-demo.com'
+      technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Bootstrap', 'Tailwind CSS'],
+      githubUrl: 'https://github.com/MiltonPolanco/Portafolio-Milton-Polanco',
+      liveUrl: 'https://portafolio-milton-polanco.netlify.app/'
     },
     {
-      title: t('projects.taskmanager.title'),
-      description: t('projects.taskmanager.description'),
+      title: t('projects.research-assistant.title'),
+      description: t('projects.research-assistant.description'),
       image: '/project2.jpg',
-      technologies: ['Next.js', 'TypeScript', 'PostgreSQL', 'Prisma'],
-      githubUrl: 'https://github.com/miltonpolanco/task-manager',
-      liveUrl: 'https://taskmanager-demo.com'
+      technologies: ['Python', 'Streamlit', 'OpenAI API', 'Tavily API', 'WordCloud'],
+      githubUrl: 'https://github.com/MiltonPolanco/Proyecto1-IA',
+      liveUrl: 'https://asistente-de-investigacin-digital.streamlit.app/'
     },
     {
-      title: t('projects.weather.title'),
-      description: t('projects.weather.description'),
+      title: t('projects.tecnomedica.title'),
+      description: t('projects.tecnomedica.description'),
       image: '/project3.jpg',
-      technologies: ['React', 'D3.js', 'Weather API', 'Chart.js'],
-      githubUrl: 'https://github.com/miltonpolanco/weather-dashboard',
-      liveUrl: 'https://weather-demo.com'
+      technologies: ['Next.js', 'React', 'MongoDB', 'NextAuth.js', 'Tailwind CSS', 'Node.js'],
+      githubUrl: 'https://github.com/MiltonPolanco/Tecnomedica-TM',
+      liveUrl: 'https://tenomedica-tm.netlify.app/'
+    },
+    {
+      title: t('projects.seriesTracker.title'),
+      description: t('projects.seriesTracker.description'),
+      image: '/project3.jpg',
+      technologies: ['Go', 'MariaDB', 'Docker', 'REST API', 'JavaScript', 'HTML/CSS'],
+      githubUrl: 'https://github.com/MiltonPolanco/Lab-6-Backend-only',
+      liveUrl: ''
     }
   ];
 
