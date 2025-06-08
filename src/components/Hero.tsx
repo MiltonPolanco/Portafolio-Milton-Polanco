@@ -139,7 +139,7 @@ const Hero = () => {
               </svg>
             </a>
             <a 
-              href="https://linkedin.com/in/miltonpolanco" 
+              href="https://www.linkedin.com/in/milton-giovanni-polanco-serrano-737a9b266/" 
               target="_blank"
               rel="noopener noreferrer"
               className="transition-all duration-300 hover-lift"
@@ -157,7 +157,7 @@ const Hero = () => {
               </svg>
             </a>
             <a 
-              href="mailto:milton@example.com" 
+              href="mailto:miltonpolanco00@gmail.com" 
               className="transition-all duration-300 hover-lift"
               style={{ color: isDark ? '#9ca3af' : '#6b7280' }}
               onMouseEnter={(e) => {

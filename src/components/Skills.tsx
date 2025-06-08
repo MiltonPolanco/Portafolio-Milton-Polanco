@@ -17,7 +17,7 @@ const Skills = () => {
       ),
       skills: [
         'React', 'Next.js', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3', 
-        'Tailwind CSS', 'Sass', 'Vue.js', 'Redux', 'Zustand', 'React Router'
+        'Tailwind CSS'
       ]
     },
     {
@@ -28,8 +28,7 @@ const Skills = () => {
         </svg>
       ),
       skills: [
-        'Node.js', 'Express.js', 'Python', 'Django', 'FastAPI', 'PHP', 
-        'Laravel', 'REST APIs', 'GraphQL', 'Socket.io', 'JWT', 'OAuth'
+        'Node.js', 'Express.js', 'Python', 'REST APIs', 'JWT', 'OAuth'
       ]
     },
     {
@@ -40,8 +39,8 @@ const Skills = () => {
         </svg>
       ),
       skills: [
-        'PostgreSQL', 'MongoDB', 'MySQL', 'Redis', 'Prisma', 'Mongoose', 
-        'SQL', 'Firebase', 'Supabase', 'SQLite', 'Database Design'
+        'PostgreSQL', 'MongoDB', 'MySQL', 'Prisma', 'Mongoose', 
+        'SQL', 'Supabase'
       ]
     },
     {
@@ -53,15 +52,16 @@ const Skills = () => {
         </svg>
       ),
       skills: [
-        'Git', 'GitHub', 'Docker', 'AWS', 'Vercel', 'Netlify', 
-        'VS Code', 'Postman', 'Figma', 'Linux', 'Nginx', 'CI/CD'
+        'Git', 'GitHub', 'Docker', 'Vercel', 'Netlify', 
+        'VS Code', 'Postman', 'Figma', 'Linux', 'Nginx'
       ]
     }
   ];
 
   const learningSkills = [
-    'Go', 'Rust', 'Kubernetes', 'Microservices', 'Three.js', 'React Native', 
-    'Flutter', 'WebAssembly', 'Machine Learning', 'AI/LLMs', 'Blockchain', 'Web3'
+    'Go', 'Rust', 'React Native',
+    'Machine Learning', 'AI/LLMs', 'PHP', 
+    'Laravel',  'SQLite', 'Database Design', 'AWS', 'CI/CD', 'React Router'
   ];
 
   return (

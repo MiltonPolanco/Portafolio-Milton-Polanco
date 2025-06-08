@@ -1,4 +1,3 @@
-/* filepath: c:\Users\mdax8\OneDrive\Desktop\Web\Portafolio Milton Polanco\portfolio\src\components\Contact.tsx */
 import React, { useState } from 'react';
 import { useTheme } from '../context/ThemeContext';
 import { useLanguage } from '../context/LanguageContext';
@@ -83,8 +82,8 @@ const Contact = () => {
         </svg>
       ),
       title: t('contact.phone'),
-      content: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      content: '+502 5825-3509',
+      link: 'tel:+50258253509'
     },
     {
       icon: (
@@ -94,7 +93,7 @@ const Contact = () => {
         </svg>
       ),
       title: t('contact.location'),
-      content: 'Ciudad, País',
+      content: 'Guatemala, Guatemala',
       link: '#'
     }
   ];
@@ -193,7 +192,7 @@ const Contact = () => {
                     </svg>
                   </a>
                   <a 
-                    href="https://linkedin.com/in/miltonpolanco" 
+                    href="https://www.linkedin.com/in/milton-giovanni-polanco-serrano-737a9b266/" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="transition-colors"
