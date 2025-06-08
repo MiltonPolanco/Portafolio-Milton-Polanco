@@ -3,6 +3,12 @@ import React from 'react';
 import { useTheme } from '../context/ThemeContext';
 import { useLanguage } from '../context/LanguageContext';
 
+// Función para generar screenshots de proyectos
+const generateScreenshotUrl = (projectUrl: string): string => {
+  const encodedUrl = encodeURIComponent(projectUrl);
+  return `https://api.microlink.io/?url=${encodedUrl}&screenshot=true&embed=screenshot.url`;
+};
+
 const Projects = () => {
   const { isDark } = useTheme();
   const { t } = useLanguage();
@@ -11,7 +17,7 @@ const Projects = () => {
     {
       title: t('projects.portfolio.title'),
       description: t('projects.portfolio.description'),
-      image: '/project1.jpg',
+      image: generateScreenshotUrl('https://portafolio-milton-polanco.netlify.app/'),
       technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Bootstrap', 'Tailwind CSS'],
       githubUrl: 'https://github.com/MiltonPolanco/Portafolio-Milton-Polanco',
       liveUrl: 'https://portafolio-milton-polanco.netlify.app/'
@@ -19,7 +25,7 @@ const Projects = () => {
     {
       title: t('projects.research-assistant.title'),
       description: t('projects.research-assistant.description'),
-      image: '/project2.jpg',
+      image: generateScreenshotUrl('https://asistente-de-investigacin-digital.streamlit.app/'),
       technologies: ['Python', 'Streamlit', 'OpenAI API', 'Tavily API', 'WordCloud'],
       githubUrl: 'https://github.com/MiltonPolanco/Proyecto1-IA',
       liveUrl: 'https://asistente-de-investigacin-digital.streamlit.app/'
@@ -27,7 +33,7 @@ const Projects = () => {
     {
       title: t('projects.tecnomedica.title'),
       description: t('projects.tecnomedica.description'),
-      image: '/project3.jpg',
+      image: generateScreenshotUrl('https://tenomedica-tm.netlify.app/'),
       technologies: ['Next.js', 'React', 'MongoDB', 'NextAuth.js', 'Tailwind CSS', 'Node.js'],
       githubUrl: 'https://github.com/MiltonPolanco/Tecnomedica-TM',
       liveUrl: 'https://tenomedica-tm.netlify.app/'
@@ -35,7 +41,7 @@ const Projects = () => {
     {
       title: t('projects.seriesTracker.title'),
       description: t('projects.seriesTracker.description'),
-      image: '/project3.jpg',
+      image: generateScreenshotUrl('https://github.com/MiltonPolanco/Lab-6-Backend-only'),
       technologies: ['Go', 'MariaDB', 'Docker', 'REST API', 'JavaScript', 'HTML/CSS'],
       githubUrl: 'https://github.com/MiltonPolanco/Lab-6-Backend-only',
       liveUrl: ''
