@@ -21,6 +21,14 @@ const Projects = () => {
       liveUrl: 'https://portafolio-milton-polanco.netlify.app/'
     },
     {
+      title: t('projects.tecnomedica.title'),
+      description: t('projects.tecnomedica.description'),
+      image: generateScreenshotUrl('https://tenomedica-tm.netlify.app/'),
+      technologies: ['Next.js', 'React', 'MongoDB', 'NextAuth.js', 'Tailwind CSS', 'Node.js'],
+      githubUrl: 'https://github.com/MiltonPolanco/Tecnomedica-TM',
+      liveUrl: 'https://tenomedica-tm.netlify.app/'
+    },
+    {
       title: t('projects.research-assistant.title'),
       description: t('projects.research-assistant.description'),
       image: '/asistente-streamlit.png',
@@ -29,12 +37,36 @@ const Projects = () => {
       liveUrl: 'https://asistente-de-investigacin-digital.streamlit.app/'
     },
     {
-      title: t('projects.tecnomedica.title'),
-      description: t('projects.tecnomedica.description'),
-      image: generateScreenshotUrl('https://tenomedica-tm.netlify.app/'),
-      technologies: ['Next.js', 'React', 'MongoDB', 'NextAuth.js', 'Tailwind CSS', 'Node.js'],
-      githubUrl: 'https://github.com/MiltonPolanco/Tecnomedica-TM',
-      liveUrl: 'https://tenomedica-tm.netlify.app/'
+      title: t('projects.raytracingPS3.title'),
+      description: t('projects.raytracingPS3.description'),
+      image: '/PS3 Game.gif',
+      technologies: ['C', 'C++', 'PS3', 'Raytracing', 'Graphics Programming'],
+      githubUrl: 'https://github.com/MiltonPolanco/JuegoRaytracing-PS3',
+      liveUrl: 'https://github.com/MiltonPolanco/JuegoRaytracing-PS3'
+    },
+    {
+      title: t('projects.raycastingNDS.title'),
+      description: t('projects.raycastingNDS.description'),
+      image: '/DS XL Game.gif',
+      technologies: ['C', 'C++', 'Nintendo DS', 'Raycasting', 'Embedded Systems'],
+      githubUrl: 'https://github.com/MiltonPolanco/Juego-NDS-Raycasting',
+      liveUrl: 'https://github.com/MiltonPolanco/Juego-NDS-Raycasting'
+    },
+    {
+      title: t('projects.spaceTravelSTM32.title'),
+      description: t('projects.spaceTravelSTM32.description'),
+      image: '/P3-STM32.gif',
+      technologies: ['C', 'STM32', 'Embedded Systems', 'Real-time Graphics'],
+      githubUrl: 'https://github.com/MiltonPolanco/Space-Travel-STM32',
+      liveUrl: 'https://github.com/MiltonPolanco/Space-Travel-STM32'
+    },
+    {
+      title: t('projects.shaderRendererSTM32.title'),
+      description: t('projects.shaderRendererSTM32.description'),
+      image: '/video-shader-renderer.gif',
+      technologies: ['C', 'C++', 'STM32', 'Shaders', 'Graphics Programming'],
+      githubUrl: 'https://github.com/MiltonPolanco/Shader-renderer-STM32',
+      liveUrl: 'https://github.com/MiltonPolanco/Shader-renderer-STM32'
     },
     {
       title: t('projects.seriesTracker.title'),

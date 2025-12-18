@@ -69,6 +69,14 @@ const translations = {
     'projects.tecnomedica.description': 'Plataforma web completa para gestión médica con autenticación, dashboard administrativo y sistema de roles. Incluye integración con Google OAuth y base de datos MongoDB',
     'projects.seriesTracker.title': 'Series Tracker API',
     'projects.seriesTracker.description': 'API RESTful desarrollada en Go para gestionar un backlog de series con operaciones CRUD completas. Incluye frontend interactivo, filtros avanzados, actualizaciones parciales (PATCH) y sistema de ranking con upvote/downvote',
+    'projects.raytracingPS3.title': 'Juego Raytracing PS3',
+    'projects.raytracingPS3.description': 'Juego 3D implementado con técnicas de raytracing para PlayStation 3. Proyecto que demuestra programación gráfica avanzada en hardware de consola con renderizado en tiempo real.',
+    'projects.raycastingNDS.title': 'Juego Raycasting NDS',
+    'projects.raycastingNDS.description': 'Juego estilo Doom desarrollado para Nintendo DS utilizando técnicas de raycasting. Implementación de un motor gráfico 3D en sistemas embebidos con recursos limitados.',
+    'projects.spaceTravelSTM32.title': 'Space Travel STM32',
+    'projects.spaceTravelSTM32.description': 'Juego de viaje espacial implementado en microcontrolador STM32. Proyecto de sistemas embebidos con gráficos en tiempo real y control de periféricos de bajo nivel.',
+    'projects.shaderRendererSTM32.title': 'Shader Renderer STM32',
+    'projects.shaderRendererSTM32.description': 'Motor de renderizado con shaders implementado en STM32. Demuestra técnicas avanzadas de programación gráfica y optimización en sistemas embebidos de recursos limitados.',
     
     // Contact Section
     'contact.title': 'Contacto',
@@ -139,6 +147,14 @@ const translations = {
     'projects.tecnomedica.description': 'Complete medical management web platform with authentication, administrative dashboard and role-based system. Features Google OAuth integration and MongoDB database',
     'projects.seriesTracker.title': 'Series Tracker API',
     'projects.seriesTracker.description': 'RESTful API built with Go for managing a series backlog with full CRUD operations. Features interactive frontend, advanced filtering, partial updates (PATCH), and ranking system with upvote/downvote functionality',
+    'projects.raytracingPS3.title': 'Raytracing Game PS3',
+    'projects.raytracingPS3.description': '3D game implemented with raytracing techniques for PlayStation 3. Project demonstrating advanced graphics programming on console hardware with real-time rendering.',
+    'projects.raycastingNDS.title': 'Raycasting Game NDS',
+    'projects.raycastingNDS.description': 'Doom-style game developed for Nintendo DS using raycasting techniques. Implementation of a 3D graphics engine on embedded systems with limited resources.',
+    'projects.spaceTravelSTM32.title': 'Space Travel STM32',
+    'projects.spaceTravelSTM32.description': 'Space travel game implemented on STM32 microcontroller. Embedded systems project with real-time graphics and low-level peripheral control.',
+    'projects.shaderRendererSTM32.title': 'Shader Renderer STM32',
+    'projects.shaderRendererSTM32.description': 'Rendering engine with shaders implemented on STM32. Demonstrates advanced graphics programming techniques and optimization on resource-constrained embedded systems.',
     
     // Contact Section
     'contact.title': 'Contact',
